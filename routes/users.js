@@ -12,6 +12,10 @@ router.get('/', function(req, res, next) {
   res.render('usres');
 });
 
+router.get('/welcome', function (req, res, next) {
+	res.render('welcomeuser');
+});
+
 
 
 module.exports = router;
